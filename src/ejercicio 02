@@ -1,6 +1,9 @@
 nano 02-holaparametros.sh
+################################
+#Script#
     #/bin/bash
     echo "hola$@!"
+ ###############################
 chmod 777 02-holaparametros.sh 
 ./02-holaparametros.sh
 hola!
