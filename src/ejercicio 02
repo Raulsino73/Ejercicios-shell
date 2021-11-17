@@ -1,6 +1,6 @@
-alumno@alumno-HP-ProDesk-600-G5-MT:~$ nano hola.sh
+nano 02-holaparametros.sh
     #/bin/bash
-    # Este es nuestro primer programa
-    echo hola mundo
-alumno@alumno-HP-ProDesk-600-G5-MT:~$ ./hola.sh
-hola mundo
+    echo "hola$@!"
+chmod 777 02-holaparametros.sh 
+./02-holaparametros.sh
+hola!
